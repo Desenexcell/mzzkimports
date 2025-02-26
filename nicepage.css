@@ -44473,13 +44473,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 149px;
+  min-height: 117px;
 }
 
 .u-header .u-image-1 {
   width: 157px;
   height: 82px;
-  margin: 34px auto 0 0;
+  margin: 18px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -44488,13 +44488,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -59px auto 0;
+  margin: -60px auto 0;
 }
 
 .u-header .u-nav-1 {
   font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -44541,24 +44542,11 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   --radius: 15px;
   background-image: none;
-  margin: -39px 0 53px auto;
+  margin: -40px 0 37px auto;
 }
 @media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: 157px;
-    height: 82px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -59px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
-
   .u-header .u-btn-2 {
-    margin-top: -39px;
+    margin-top: -40px;
     margin-right: 0;
   }
 }
@@ -44574,6 +44562,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-btn-2 {
     margin-right: 0;
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 767px) {
@@ -44592,7 +44581,9 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-btn-2 {
-    margin: 25px 0 60px 130px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-left: 130px;
   }
 }
 @media (max-width: 575px) {
@@ -44643,21 +44634,20 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 30px;
 }
 
+.u-footer .u-icon-1 {
+  width: 64px;
+  height: 64px;
+  margin: 22px auto 0;
+}
+
 .u-footer .u-text-2 {
-  margin: 0;
+  margin: 22px 0 0;
 }
 
 .u-footer .u-text-3 {
   background-image: none;
   font-size: 1.25rem;
-  margin: 20px 0 0;
-}
-
-.u-footer .u-btn-1 {
-  background-image: none;
-  font-weight: 700;
-  margin-top: 0;
-  padding: 0;
+  margin: 36px 0 0;
 }
 
 .u-footer .u-layout-cell-3 {
@@ -44668,7 +44658,7 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 30px;
 }
 
-.u-footer .u-icon-1 {
+.u-footer .u-icon-2 {
   width: 64px;
   height: 64px;
   margin: 0 auto;
@@ -44683,7 +44673,7 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 20px 0 0;
 }
 
-.u-footer .u-btn-2 {
+.u-footer .u-btn-1 {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 2px;
